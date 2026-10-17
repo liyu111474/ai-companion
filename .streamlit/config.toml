@@ -1,0 +1,29 @@
+[theme]
+base = "light"
+primaryColor = "#315C46"
+backgroundColor = "#F5F8F5"
+secondaryBackgroundColor = "#E8EFE9"
+textColor = "#233C30"
+borderColor = "#D4E0D6"
+greenColor = "#315C46"
+grayColor = "#586B60"
+font = "Noto Sans SC, Microsoft YaHei, sans-serif"
+headingFont = "Noto Serif SC, SimSun, serif"
+baseFontSize = 15
+headingFontSizes = ["40px", "28px", "21px", "18px", "16px", "14px"]
+headingFontWeights = [500, 500, 600, 600, 500, 500]
+baseRadius = "12px"
+buttonRadius = "10px"
+showWidgetBorder = true
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#EBF1EB"
+secondaryBackgroundColor = "#F8FAF8"
+borderColor = "#D4E0D6"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

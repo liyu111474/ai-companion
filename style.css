@@ -1,0 +1,33 @@
+/* Stable container keys keep these refinements scoped to this app. */
+.st-key-chat_header {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #d9e3dc;
+    margin-bottom: 1rem;
+}
+.st-key-chat_header h3 { font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+.st-key-chat_header p { margin-bottom: 0; }
+.st-key-welcome { text-align: center; padding: 1.2rem 0 1rem; gap: .5rem; }
+.st-key-welcome h1 {
+    font-size: clamp(1.9rem, 3.2vw, 2.7rem);
+    line-height: 1.55;
+    font-weight: 500;
+    max-width: 8em;
+    margin-inline: auto;
+    text-wrap: balance;
+}
+.st-key-welcome p { line-height: 1.9; }
+.st-key-welcome h1, .st-key-welcome p, .st-key-setup_hint p { text-align: center; }
+.st-key-suggestions { margin: .5rem 0 1.5rem; }
+.st-key-suggestions button { padding: .65rem 1.1rem; }
+.st-key-chat { box-shadow: 0 6px 24px #24483d0d; }
+[data-testid="stChatMessage"] { border-radius: 18px; padding: 1.1rem 1.25rem; line-height: 1.85; }
+[data-testid="stChatMessage"] p { line-height: 1.85; }
+[data-testid="stSidebar"] h3 { font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+button:focus-visible { outline: 3px solid #46745b; outline-offset: 3px; }
+[data-testid="stCaptionContainer"] { color: #586B60; opacity: 1; }
+@media (max-width: 640px) {
+    .st-key-welcome { padding-top: .3rem; }
+    .st-key-welcome h1 { font-size: 1.9rem; }
+    .st-key-suggestions { gap: .4rem; }
+    .st-key-suggestions button { padding: .5rem .7rem; }
+}
