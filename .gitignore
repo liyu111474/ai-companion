@@ -13,3 +13,11 @@ original/
 .vscode/
 .DS_Store
 Thumbs.db
+/archive/
+*.tmp
+/.verification/*
+!/.verification/app-review.md
+!/.verification/viewer-checks-full.json
+!/.verification/desktop-full.png
+!/.verification/mobile-full.png
+!/.verification/installation-full.png

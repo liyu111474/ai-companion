@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-18T05:35:14.468Z",
+  "timezone": "Asia/Shanghai",
+  "browser": "155.0.8059.84",
+  "scope": "Local UI and complete runtime-resource copy; no real model request or clean dependency installation",
+  "observations": [
+    {
+      "scenario": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "errors": [],
+      "overflow": false,
+      "sidebarExpanded": "true",
+      "background": "rgb(245, 248, 245)",
+      "headingFont": "\"Noto Serif SC\", SimSun, serif, \"Source Sans\", sans-serif",
+      "layoutPadding": "18px 0px 15px",
+      "title": "把今天的心事，慢慢说给我听。",
+      "leafLoaded": true,
+      "interactions": {
+        "profileSaved": true,
+        "suggestionPrefillsWithoutSending": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "errors": [],
+      "overflow": false,
+      "sidebarExpanded": "false",
+      "background": "rgb(245, 248, 245)",
+      "headingFont": "\"Noto Serif SC\", SimSun, serif, \"Source Sans\", sans-serif",
+      "layoutPadding": "4.5px 0px 15px",
+      "title": "把今天的心事，慢慢说给我听。",
+      "leafLoaded": true,
+      "interactions": {},
+      "passed": true
+    },
+    {
+      "scenario": "installation",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "errors": [],
+      "overflow": false,
+      "sidebarExpanded": "true",
+      "background": "rgb(245, 248, 245)",
+      "headingFont": "\"Noto Serif SC\", SimSun, serif, \"Source Sans\", sans-serif",
+      "layoutPadding": "18px 0px 15px",
+      "title": "把今天的心事，慢慢说给我听。",
+      "leafLoaded": true,
+      "interactions": {},
+      "passed": true
+    }
+  ]
+}

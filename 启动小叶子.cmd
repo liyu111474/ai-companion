@@ -1,4 +1,8 @@
 @echo off
 cd /d "%~dp0"
-python -m streamlit run app.py
+if exist ".venv\Scripts\python.exe" (
+    ".venv\Scripts\python.exe" -m streamlit run app.py %*
+) else (
+    python -m streamlit run app.py %*
+)
 if errorlevel 1 pause
